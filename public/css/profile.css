@@ -1,0 +1,16 @@
+.pp {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	background-color: transparent;
+    overflow: hidden;
+    margin: auto;
+}
+.pp .img {
+	height: 100%;
+}
+
+.pp .img:hover{
+	background-color: #fff;
+	display: block;
+}

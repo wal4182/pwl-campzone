@@ -1,0 +1,12 @@
+.produkImg {
+	background-color: #f8f9fa;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.produkImg img {
+    max-height: 750px;
+    width: 100%;
+    display: block;
+    overflow: auto;
+}

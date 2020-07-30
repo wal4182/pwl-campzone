@@ -1,0 +1,532 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+// Navbar
+
+.navbar {
+  z-index: 5;
+  padding-top: 20px;
+
+  a {
+    color: white;
+    font-size: 13px;
+
+    letter-spacing: 1px;
+  }
+}
+
+.navbar.change {
+  background-color: black;
+  transition: 0.9s;
+  border-bottom: white 0.7px solid;
+}
+
+.navbar {
+  .navbar-brand {
+    font-weight: bold;
+
+    span {
+      color: #ffab2d;
+    }
+
+    font-size: 20px;
+  }
+
+  .navbar-nav {
+    a {
+      margin-left: 60px;
+      transition: 0.5s;
+      font-weight: light;
+    }
+
+    :hover {
+      color: #ffab2d;
+    }
+  }
+}
+
+// Akhir Navbar
+
+// Header
+
+#banner {
+  background-image: url("/frontend/images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 106vh;
+  margin-top: -30px;
+  z-index: 4;
+  position: relative;
+}
+
+#banner {
+  img {
+    width: 340px;
+    z-index: 11;
+    margin-left: 50px;
+    margin-top: -30px;
+    position: relative;
+  }
+
+  .row {
+    padding-top: 170px;
+    position: relative;
+    z-index: 12;
+  }
+
+  h1 {
+    font-weight: bold;
+    line-height: 60px;
+    z-index: 10;
+    font-size: 43px;
+    text-shadow: 0px 3px 5px black !important;
+  }
+
+  span {
+    color: #ffab2d;
+  }
+
+  p {
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    line-height: 26px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    padding-right: 100px;
+  }
+
+  .btn {
+    background-color: #ffab2d;
+    color: black;
+    font-weight: bold;
+    border-radius: 0px !important;
+    padding: 10px 30px;
+    border: none;
+    transition: 0.3s;
+  }
+
+  .btn:hover {
+    box-shadow: 0px 0px 10px rgb(255, 171, 45) !important;
+  }
+
+  .overlay {
+    background-color: black;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+}
+
+// Akhir Header
+
+// Awal Service
+
+#service-section {
+  padding-bottom: 50px;
+  background-color: #000000;
+  padding-top: 50px;
+}
+
+#service-section {
+  .service {
+    .content {
+      img {
+        width: 70px;
+      }
+
+      p {
+        padding-top: 20px;
+      }
+    }
+  }
+}
+
+// Akhir Service
+
+#product-type {
+  background-color: #14171a;
+  padding-top: px;
+  padding-bottom: 100px;
+
+  h5 {
+    color: #ffab2d;
+  }
+}
+
+#product-type {
+  .content {
+    .judul {
+      h1 {
+        color: #ffab2d;
+        text-align: center;
+        padding: 100px 0px;
+      }
+    }
+
+    .section-product-category {
+      .card-product-category {
+        min-height: 380px;
+        padding: 30px;
+        background-size: cover;
+        margin-bottom: 20px;
+        background-color: black;
+      }
+
+      .product-button {
+        .btn {
+          background-color: black;
+          border: #ffab2d 1px solid !important;
+          border-radius: 16px;
+          padding: 7px 35px;
+          cursor: pointer;
+          font-weight: bold;
+          color: white !important;
+          transition: 0.4s;
+        }
+
+        .btn:hover {
+          background-color: #ffab2d;
+          color: black !important;
+        }
+      }
+    }
+  }
+}
+
+// Awal Kategori Produk
+
+#brand {
+  background-image: url(/frontend//images/1.jpg);
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-attachment: fixed;
+  position: relative;
+  padding: 50px 30px;
+}
+
+#brand {
+  img {
+    width: 200px;
+    z-index: 2;
+    position: relative;
+  }
+
+  .nature {
+    img {
+      width: 150px;
+      margin-top: -30px;
+    }
+  }
+
+  .eiger {
+    width: 150px;
+    min-width: 200px;
+  }
+
+  .consina {
+    width: 150px;
+    margin-top: 20px;
+  }
+
+  .cozmeed {
+    width: 150px;
+    margin-top: 20px;
+  }
+
+  .overlay {
+    background-color: black;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+}
+
+.testimoni {
+  background-color: black;
+  height: 100vh;
+}
+
+// Akhir brand
+
+// Awal News
+
+#news {
+  background-color: #14171a;
+  padding: 100px;
+}
+
+#news {
+  .card {
+    .card-body {
+      background-color: black !important;
+      color: white;
+
+      .btn {
+        width: 100%;
+        background-color: #ffab2d;
+        color: black;
+        border: none;
+        font-weight: bold;
+        transition: 0.4s;
+      }
+
+      .btn:hover {
+        background-color: white;
+      }
+    }
+  }
+
+  .card {
+    border: 0px;
+  }
+}
+
+// Akhir news
+
+// Awal Footer
+#footer {
+  background-color: black;
+  color: white;
+  padding: 50px;
+
+  .kiri {
+    p {
+      padding-top: 15px;
+
+      span {
+        color: #ffab2d;
+      }
+    }
+  }
+
+  .icon {
+    padding: 0px 60px;
+  }
+
+  .icon {
+    img {
+      width: 22px;
+    }
+
+    ul li {
+      display: inline-block;
+      padding-left: 20px;
+    }
+  }
+
+  .link {
+    padding-left: 60px;
+
+    ul li {
+      display: inline-block;
+      padding-left: 20px;
+    }
+
+    ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    ul li a:hover {
+      color: #ffab2d;
+    }
+  }
+}
+
+// Akhir Footer
+
+// Categori Product
+
+.banner-category {
+  background-size: cover;
+  margin-top: 100px;
+  padding: 100px;
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-category {
+  h1 {
+    z-index: 3;
+    position: relative;
+  }
+
+  .overlay {
+    background-color: black;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+}
+
+// Kategori Produk
+
+#category-product {
+  .content-category-product {
+    margin-top: 50px;
+  }
+
+  .dropdown {
+    .btn-group {
+      button {
+        background-color: none !important;
+        border-radius: 5px;
+        border: 1px solid black;
+        padding: 5px 20px;
+        transition: 0.4s;
+      }
+
+      button:hover {
+        background-color: #ffab2d !important;
+        color: white;
+        border: none;
+      }
+    }
+  }
+
+  .content-category-product {
+    .figure h5 {
+      color: #171717;
+      padding-top: 20px;
+    }
+
+    .product {
+      margin-left: 20px;
+    }
+
+    .bungkus {
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      padding: 40px 20px;
+      position: relative;
+    }
+
+    .bungkus {
+      .img-product {
+        img {
+          width: 150px !important;
+        }
+      }
+    }
+
+    .bungkus a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 8px;
+      background-color: rgba(0, 0, 0, 0.7);
+      opacity: 0;
+      transition: opacity 0.3s;
+      border-radius: 10px;
+      height: 100%;
+    }
+
+    .bungkus:hover a {
+      opacity: 1;
+    }
+
+    .brand-category ul li {
+      list-style: none;
+    }
+
+    .brand {
+      position: relative;
+    }
+
+    .brand {
+      .nama-brand {
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        bottom: 8px;
+        border-radius: 7px;
+        transition: 0.3s;
+        height: 100%;
+
+        img {
+          width: 50%;
+          height: 17px;
+        }
+      }
+
+      .nama-brand:hover {
+        opacity: 1;
+        background-color: #ffab2d;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+
+
+// Single Product
+
+#single-product {
+  .btn-product {
+    margin: 50px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EAEAEF
+  }
+
+  figure {
+    margin-top: 100px;
+  }
+
+  .figure-img {
+    background-color: #F5F2F2;
+  }
+
+  .figure-caption {
+    img {
+      width: 80px;
+    }
+  }
+
+  .product-thumbnail-container {
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 360px;
+    padding: 8px;
+    margin: auto;
+    transform: translateY(-50px);
+  }
+
+  .btn-product {
+    .cart {
+      display: block;
+      width: 50%;
+      margin: 10px 0;
+    }
+
+    .wishlist {
+      width: 50%;
+      display: block;
+      margin: 10px 0;
+    }
+
+  }
+}

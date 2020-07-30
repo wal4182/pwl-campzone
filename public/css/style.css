@@ -1,0 +1,151 @@
+body {
+	overflow-x: hidden;
+}
+p {
+	font-size: 14px;
+}
+section {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+/*universal*/
+
+.sec-title {
+	margin-bottom: 40px;
+	text-align: center;
+}
+.btn {
+	font-size: 14px;
+}
+/*Navbar*/
+.navbar-brand img{
+	height: 40px;
+}
+/*Hero*/
+.jumbotron-fluid {
+	height: 80vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(/img/hero.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	position:relative;
+
+}
+p.hero-caption {
+	margin-top: 30vh;
+	font-weight: 400;
+}
+
+
+.tentang-imgBox{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	width: 400px;
+	height: 250px;
+    overflow: hidden;
+}
+.tentang-imgBox img {
+	width: 100%;
+}
+.tentang-konten {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+/*Galeri*/
+.galeri-img {
+	height: 200px;
+	justify-content: center;
+}
+.galeri-img img {
+	height: 100%;
+}
+
+/*Review*/
+.pp {
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	background-color: lightblue;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.pp img {
+	height: 100%;
+}
+/*Kontak*/
+.office-imgBox {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	width: 400px;
+	height: 250px;
+    overflow: hidden;
+}
+.office-imgBox img {
+	width: 100%;
+}
+/*Footer*/
+footer {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.btn-detail {
+	background-color: #c1c1c1;
+	color: #000;
+    border-color: #c1c1c1;
+}
+
+p.harga-sewa {
+	font-size: 14px;
+	font-weight: 500;
+	color: #000;
+}
+.bg-detail {
+	background-color: #c1c1c1;
+}
+.btn-detail:hover {
+    color: #212529;
+    background-color: #ababab;
+    border-color: #ababab;
+}
+
+/*RENTAL*/
+/*slider*/
+
+.fixed {
+	position: fixed;
+}
+.carousel-imgBox {
+	height: 400px;
+
+}
+.slide-caption {
+	position: absolute;
+    right: 15%;
+    left: 15%;
+    z-index: 10;
+    margin-top: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+/*product*/
+.product .card:hover {
+	box-shadow: 3px 2px 2px rgba(0,0,0,0.4);
+	transform: scale(1.01);
+}
+
+/*RENTAL DETAIL*/
+.rental-imgBox {
+	height: 200px;
+	overflow: hidden;
+}
+.rental-imgBox img {
+	height: 100%;
+}
